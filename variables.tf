@@ -1,7 +1,7 @@
 variable "service_name" {
   description = "The name of the service (e.g., payment-service). Used for resource naming."
   type        = string
-  default     = "demo-app" # Default for your initial test
+  default     = "mia-platform-tf-azure-demo-app" # Default for your initial test
 }
 
 variable "resource_group_name" {
