@@ -32,8 +32,8 @@ terraform.rc
 # Ignore plan files
 *.tfplan
 
-# Ignore lock files (uncomment if you want to ignore provider lock files)
-# .terraform.lock.hcl
+# Ignore lock files (modules should not include lock files)
+.terraform.lock.hcl
 
 # Ignore any .env files
 .env
