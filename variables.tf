@@ -27,3 +27,8 @@ variable "tech_stack" {
   description = "The runtime stack for the application."
   type        = string
 }
+
+variable "deployed_service" {
+  description = "Service to be deployed to this app (e.g., 'service-hello-world')."
+  type        = string
+}
