@@ -38,6 +38,10 @@ resource "azurerm_linux_web_app" "main" {
     }
   }
 
+  app_settings = {
+    SCM_DO_BUILD_DURING_DEPLOYMENT = "true"
+  }
+
   tags = {
     service = var.service_name
   }
